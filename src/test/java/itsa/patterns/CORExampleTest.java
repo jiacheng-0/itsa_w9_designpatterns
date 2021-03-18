@@ -1,8 +1,7 @@
 package itsa.patterns;
 
-import java.util.*;
-
-import static org.junit.Assert.*;
+// import java.util.*;
+// import static org.junit.Assert.*;
 import org.junit.*;
 
 public class CORExampleTest {
@@ -14,16 +13,16 @@ public class CORExampleTest {
         rootChain.add(new ApproverHandler("4", 1000000));
 		
 		int[] requests = {500, 1000, 1500, 5000};
-		String ans = "";
+		StringBuilder ans = new StringBuilder();
 		for (int i=0; i < requests.length; i++) {
-            ans += rootChain.execute(requests[i]);
+            ans.append(rootChain.execute(requests[i]));
 			
 			if (i < requests.length - 1) {
-				ans += "-";
+				ans.append("-");
 			}
         }
         System.out.println(ans);
 		// In COR, the sequence should be 1-12-123-1234
-		assert ans.equals("1-12-123-1234") : "Sequence does not matched";
+		assert ans.toString().equals("1-12-123-1234") : "Sequence does not matched";
 	}
 }
