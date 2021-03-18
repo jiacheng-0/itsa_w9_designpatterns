@@ -1,6 +1,7 @@
+
 package itsa.patterns;
 
-// adaptee
+// adapter
 class Line {
 		  
     public String draw(int x1, int y1, int x2, int y2) {
@@ -8,7 +9,7 @@ class Line {
     }
 }
 
-// adaptee
+// adapter
 class Rectangle {
 	
     public String draw(int x, int y, int width, int height) {
@@ -53,17 +54,26 @@ interface Shape {
 }
 class LineAdapter implements Shape {
 	//Skeleton constructors
-	public LineAdapter() {}
-	public LineAdapter(Line line) {}
+	// public LineAdapter() {}
+    
+    private Line adapter;
+    public LineAdapter(Line line) {
+        this.adapter = line;
+    }
 	
 	public String draw(int x1, int y1, int x2, int y2) {
         // add your codes
-		return "";
+        return "";
+        // Line line = new line(x1, y1, x2, y2);
+		// return line;
     }
 }
 class RectangleAdapter implements Shape {
-	public RectangleAdapter() {}
-	public RectangleAdapter(Rectangle rectangle) {}
+    private Rectangle adapter;
+	// public RectangleAdapter() {        }
+	public RectangleAdapter(Rectangle rectangle) {
+        this.adapter = rectangle;
+    }
 
 	public String draw(int x1, int y1, int x2, int y2) {
         // You can use the following conversion codes

@@ -13,6 +13,7 @@ class SensorSystem {
 	}
 	
 	public void register(Object sensor) {
+		
 	}
 }
 

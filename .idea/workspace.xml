@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44d4c273-5259-484d-9c8f-7c85d3a42526" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/itsa/patterns/AdapterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itsa/patterns/AdapterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/itsa/patterns/CORExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itsa/patterns/CORExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/itsa/patterns/ObserverExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itsa/patterns/ObserverExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/itsa/patterns/RectangleAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itsa/patterns/RectangleAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/itsa/patterns/ApproverHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/itsa/patterns/ApproverHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/itsa/patterns/CORExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/itsa/patterns/CORExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/itsa/patterns/Gates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/itsa/patterns/Gates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/itsa/patterns/Lighting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/itsa/patterns/Lighting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/itsa/patterns/LineAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/itsa/patterns/LineAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/itsa/patterns/ObserverExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/itsa/patterns/ObserverExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/itsa/patterns/RectangleAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/itsa/patterns/RectangleAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/itsa/patterns/SensorSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/itsa/patterns/SensorSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/itsa/patterns/Surveillance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/itsa/patterns/Surveillance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="83808009-64fd-4a3d-9b6d-e73ca48828a1" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -7,8 +38,51 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1pwVJowLJObYOClX94Aeq8IdaCB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44d4c273-5259-484d-9c8f-7c85d3a42526" name="Default Changelist" comment="" />
+      <created>1616094075599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616094075599</updated>
+      <workItem from="1616094076948" duration="436000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616094126285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1616094126285" />
   </component>
 </project>

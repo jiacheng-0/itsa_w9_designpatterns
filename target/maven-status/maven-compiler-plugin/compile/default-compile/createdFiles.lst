@@ -22,6 +22,7 @@ itsa\patterns\FacadeExample.class
 itsa\patterns\Gates.class
 itsa\patterns\Lighting.class
 itsa\patterns\CORExample.class
+itsa\patterns\Approver.class
 itsa\patterns\Circle.class
 itsa\patterns\Pizza.class
 itsa\patterns\AdapterExample.class
