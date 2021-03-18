@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: itsa.patterns.ImageDecoderTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in itsa.patterns.ImageDecoderTest
-testImageDecoder(itsa.patterns.ImageDecoderTest)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: Reader is null
-	at itsa.patterns.ImageDecoderTest.testImageDecoder(ImageDecoderTest.java:16)
-
