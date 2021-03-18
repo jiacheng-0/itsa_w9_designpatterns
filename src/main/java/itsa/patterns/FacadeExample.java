@@ -29,20 +29,26 @@ public class FacadeExample {
 
       // You are supposed to hide the following implementation in the ShapeMaker (facade) and
       // just call the ShapeMaker to draw
-      Circle circle = new Circle();
-      Rect rectangle = new Rect();
-      Square square = new Square();
-	  String message = circle.draw()+rectangle.draw()+square.draw();
-	  System.out.println(message);
+
+   //    Circle circle = new Circle();
+   //    Rect rectangle = new Rect();
+   //    Square square = new Square();
+	//   String message = circle.draw()+rectangle.draw()+square.draw();
+     String message = new ShapeMaker().draw();
+     System.out.println(message);
 	  assert message.equals("Circle::draw()Rectangle::draw()Square::draw()") : "Message does not matched";
 
    }
 }
 
-Skeleton codes
- class ShapeMaker {
+// Skeleton codes
+class ShapeMaker {
 	 public String draw() {
-		 return "";
+      //  return "";
+      Circle circle = new Circle();
+      Rect rectangle = new Rect();
+      Square square = new Square();
+      String message = circle.draw()+rectangle.draw()+square.draw();
+      return message;
 	}
 }
-
