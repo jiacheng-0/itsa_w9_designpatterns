@@ -2,16 +2,16 @@ package itsa.patterns;
 
 // Use this interface and method skeleton. You still need to provide the methods.
 interface ImageReader {
-	DecodedImage getDecodeImage();
+    DecodedImage getDecodeImage();
 
 }
 
 // Use this factory class and createImageReader method skeleton. You still need to provide the implementation.
 class ImageDecoderFactory {
 
-	public ImageReader createImageReader(String image) {
-		return null;
-	}
+    public ImageReader createImageReader(String image) {
+        return null;
+    }
 }
 
 class DecodedImage {
@@ -26,7 +26,8 @@ class DecodedImage {
         return image + ": is decoded";
     }
 }
-class GifReader implements ImageReader{
+
+class GifReader implements ImageReader {
     private DecodedImage decodedImage;
 
     public GifReader(String image) {
