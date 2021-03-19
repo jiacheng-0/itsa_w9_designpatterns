@@ -1,3 +1,4 @@
 # ignore the maven builds when "clean"ing and "test"ing
 target/
 .idea/workspace.xml
+*.class

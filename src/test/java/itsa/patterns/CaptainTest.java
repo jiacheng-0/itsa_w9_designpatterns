@@ -1,15 +1,14 @@
 package itsa.patterns;
 
-import java.util.*;
+import org.junit.Test;
 
-import static org.junit.Assert.*;
-import org.junit.*;
+import static org.junit.Assert.assertEquals;
 
 public class CaptainTest {
-	@Test
-	public void testSingleton() {
+    @Test
+    public void testSingleton() {
         Captain captain1 = Captain.getCaptain();
         Captain captain2 = Captain.getCaptain();
-		assertEquals(captain1,captain2);
-	}
+        assertEquals(captain1, captain2);
+    }
 }
