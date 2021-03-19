@@ -1,24 +1,29 @@
-
 package itsa.patterns;
 
-public class Captain
-{
-	// Use this static method as skeleton for modification
- 	public static Captain getCaptain() {
-		return new Captain();
-	}
+public class Captain {
+    private static final Captain INSTANCE = new Captain();
+
+    // Use this static method as skeleton for modifications
+
+    public Captain() {
+
+    }
+    public static Captain getCaptain() {
+        return Captain.INSTANCE;
+    }
 
     public static void main(String[] args) {
-        
+
         System.out.println("Trying to make a captain for your team:");
-        Captain captain1 = new Captain();
+        Captain captain1 = Captain.getCaptain();
+        System.out.println(captain1);
         System.out.println("Trying to make another captain for your team:");
-        Captain captain2 = new Captain();
-        if (captain1 == captain2)
-        {
+        Captain captain2 = Captain.getCaptain();
+        System.out.println(captain2);
+        if (captain1 == captain2) {
             System.out.println("captain1 and captain2 are same instance.");
         } else {
-			System.out.println("captain1 and captain2 are not the same instance.");
-		}
+            System.out.println("captain1 and captain2 are not the same instance.");
+        }
     }
 }
