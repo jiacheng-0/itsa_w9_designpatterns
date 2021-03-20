@@ -14,7 +14,7 @@ public class ImageDecoderTest {
 		ImageDecoderFactory factory = new ImageDecoderFactory();
 		reader = factory.createImageReader("sample.gif");		
         assert reader != null : "Reader is null";
-		
+
 		reader = factory.createImageReader("sample.jpg");
 		assert reader != null : "Reader is null";
 		
