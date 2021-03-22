@@ -36,6 +36,7 @@ class ApproverHandler implements Approver {
         }
     }
 
+    @Override
     public ApproverHandler getNextApprover() {
         return nextApproverHandler;
     }
@@ -48,9 +49,9 @@ public class CORExample {
         ApproverHandler approver3 = new ApproverHandler("3", 1500);
         ApproverHandler approver4 = new ApproverHandler("4", 1000000);
 
-        // approver1: 1 -> null
-        approver1.add(approver2); // 1 -> 2 -> null
-        approver1.add(approver3); // 1 -> 2 -> 3 -> null
+        // approver1: 1 -> null, 2 -> null, ...
+        approver1.add(approver2); // 1 -> 2 -> null, 3 -> null, 4 -> null
+        approver1.add(approver3); // 1 -> 2 -> 3 -> null, ...
         approver1.add(approver4); // 1 -> 2 -> 3 -> 4 -> null
 
         int[] requests = {500, 1000, 1500, 5000};
