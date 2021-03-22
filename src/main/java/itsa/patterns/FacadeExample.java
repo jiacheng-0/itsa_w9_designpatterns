@@ -11,7 +11,6 @@ class Rect implements ShapeType {
         // System.out.println("Rectangle::draw()");
         return "Rectangle::draw()";
     }
-
 }
 
 class Square implements ShapeType {
