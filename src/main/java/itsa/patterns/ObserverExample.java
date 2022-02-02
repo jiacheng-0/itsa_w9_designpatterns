@@ -4,52 +4,50 @@ import java.util.ArrayList;
 
 class SensorSystem {
 
+    ArrayList<SensorInterface> sensorInterfaceList = new ArrayList<>();
+
+    public void register(SensorInterface sensorInterface) {
+        sensorInterfaceList.add(sensorInterface);
+    }
+
     public String soundTheAlarm() {
         // when this method is called, invoke
         // the gates with output "Gates are activated."
         // the lighting with output "Lightings are activated."
         // the Surveillance with output "Surveillance are activated."
 
-        // new Gates().alarm();
-        // new Lighting().alarm();
-        // new Surveillance().alarm();
         // return "The Sensor System is activated";
 
         StringBuilder sb = new StringBuilder();
-        for (Sensor s: sensorList) {
+        for (SensorInterface s: sensorInterfaceList) {
             sb.append(s.alarm());
         }
         return sb.toString();
     }
-
-    ArrayList<Sensor> sensorList = new ArrayList<>();
-
-    public void register(Sensor sensor) {
-        sensorList.add(sensor);
-    }
 }
 
-class Sensor {
-    public String alarm() {
-        return "A Sensor is activated.";
-    }
+interface SensorInterface {
+    public String alarm();
+    // {
+    //     return "A Sensor is activated.";
+    // }
 }
 
-class Gates extends Sensor {
+class Gates implements SensorInterface {
     public String alarm() {
         System.out.println("Gates are activated.");
         return "Gates are activated.";
     }
 }
 
-class Lighting extends Sensor {
+class Lighting implements SensorInterface {
     public String alarm() {
         System.out.println("Lightings are activated.");
         return "Lightings are activated.";
     }
 }
 
-class Surveillance extends Sensor {
+class Surveillance implements SensorInterface {
     public String alarm() {
         System.out.println("Surveillance are activated.");
         return "Surveillance are activated.";
